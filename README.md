@@ -4,4 +4,4 @@
  #### Guide:
 `Just right click :)`
 
-<img align="" width="300px" src="img/mouse.png">
+<img align="" width="150px" src="img/mouse.png">
