@@ -2,6 +2,6 @@
 
 ### Right click emulator project on web page!
  #### Guide:
-`Just right click :)`\
+`Just right click :)`
 
-<img align="right" width="300px" src="img/mouse.png">
+<img align="left" width="300px" src="img/mouse.png">
