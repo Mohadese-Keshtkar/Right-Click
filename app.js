@@ -5,7 +5,7 @@ const shareMenu = document.querySelector(".share-menu")
 // Right click event
 document.addEventListener("contextmenu", (e) => {
     // Prevent page refresh
-    // e.preventDefault()
+    e.preventDefault()
 
     // Right click location and show x axis
     let x = e.offsetX;
