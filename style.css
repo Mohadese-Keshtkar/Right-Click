@@ -1,0 +1,73 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    min-height: 100vh;
+    background-image: radial-gradient(circle, #4392b7, #00a2ac, #34ac86, #81af56, #c9a63b);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+}
+
+.container {
+    visibility: hidden;
+    position: absolute;
+    width: 300px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 10px;
+    padding: 15px 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.container .menu {
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+.menu .item {
+    padding: 7px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.menu .item i {
+    padding-right: 10px;
+}
+
+.menu .item:hover {
+    background-color: #f4f2f2;
+}
+
+.menu .setting {
+    border-top: 1px solid #d3d2d2;
+    margin: 10px 0;
+    padding-top: 10px;
+}
+
+.menu .share {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .share .share-menu {
+    position: absolute;
+    left: 260px;
+    width: 170px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 10px;
+    padding: 10px 5px;
+    list-style-type: none;
+    visibility: hidden;
+}
+
+.menu .share:hover .share-menu {
+    visibility: visible;
+}

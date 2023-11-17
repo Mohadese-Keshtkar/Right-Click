@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Right click Context Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <!--  Fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <ul class="menu">
+                <li class="item">
+                    <i class="fa-solid fa-eye"></i>
+                    <span>Preview</span>
+                </li>
+                <li class="item share">
+                    <div>
+                        <i class="fa-solid fa-share"></i>
+                        <span>Share</span>
+                    </div>
+                    <i class="fa-solid fa-angle-right"></i>
+                    <ul class="share-menu">
+                        <li class="item">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span>instagram</span>
+                        </li>
+                        <li class="item">
+                            <i class="fa-brands fa-x-twitter"></i>
+                            <span>twitter</span>
+                        </li>
+                        <li class="item">
+                            <i class="fa-brands fa-github"></i>
+                            <span>github</span>
+                        </li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <i class="fa-regular fa-copy"></i>
+                    <span>Copy Link</span>
+                </li>
+                <li class="item">
+                    <i class="fa-regular fa-pen-to-square"></i>
+                    <span>Edit</span>
+                </li>
+                <li class="item">
+                    <i class="fa-solid fa-trash"></i>
+                    <span>Delete</span>
+                </li>
+                <div class="setting">
+                    <li class="item">
+                        <i class="fa-solid fa-gear"></i>
+                        <span>Setting</span>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+    <!------------------------------------->
+    <script src="app.js"></script>
+</body>
+
+</html>
